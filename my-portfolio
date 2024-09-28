@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Srinija Reddy's Portfolio</title>
+</head>
+<body>
+
+    <header>
+        <h1>Srinija Reddy Kotla</h1>
+        <nav>
+            <a href="#about">About</a> |
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p>I'm a graduate student at Grand Valley State University. I'm doing my major in Applied Computer Science. I have done my bachelor's in Computer Science and Engineering.</p>
+    </section>
+
+
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <p>Email: <a href="mailto:kotlas@mail.gvsu.edu">kotlas@mail.gvsu.edu</a></p>
+    </section>
+
+</body>
+</html>
