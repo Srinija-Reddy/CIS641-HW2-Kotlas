@@ -1,26 +1,72 @@
-body {
-    font-family: Arial, sans-serif;
-    background-color: #f0f0f0;
-    color: #333;
+/* General Reset */
+* {
     margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
     padding: 20px;
 }
 
+/* Header Styles */
 header {
-    background-color: #4CAF50;
-    color: white;
-    padding: 10px 0;
-    text-align: center;
-}
-
-section {
-    margin: 20px 0;
+    background-color: #4CAF50; /* Green background */
+    color: white; /* White text */
     padding: 20px;
-    background-color: white;
+    text-align: center;
     border-radius: 8px;
+    margin-bottom: 20px;
 }
 
+/* Section Styles */
+section {
+    background-color: white; /* White background for sections */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+/* Title Styles */
+h1, h2, h3 {
+    font-family: 'Georgia', serif; /* Different font for headings */
+    margin-bottom: 10px;
+}
+
+/* Link Styles */
+a {
+    color: #4CAF50; /* Green links */
+    text-decoration: none; /* Remove underline */
+}
+
+a:hover {
+    text-decoration: underline; /* Underline on hover */
+}
+
+/* Footer Styles */
 footer {
     text-align: center;
     margin-top: 20px;
+    font-size: 0.9em;
+    color: #666; /* Gray color for footer text */
+}
+
+/* Button Styles (if you have buttons) */
+button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049; /* Darker green on hover */
 }
