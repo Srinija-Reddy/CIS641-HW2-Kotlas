@@ -16,14 +16,15 @@ body {
 
 /* Header Styles */
 header {
-    background: linear-gradient(135deg, #6a11cb 0%, #2575fc 100%); /* Gradient background */
-    color: white; /* White text */
+    background-color: #800000; /* Maroon background */
+    color: #ffb6c1; /* Baby pink text */
     padding: 30px;
     text-align: center;
     border-radius: 10px;
     margin-bottom: 20px;
     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
 }
+
 
 /* Section Styles */
 section {
